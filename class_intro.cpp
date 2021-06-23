@@ -14,16 +14,16 @@ using namespace std;
     };
 
 int main(){
-    BankAccount one;
-    one.name = "Murlidhar Pathak";
-    one.accountNumber= 857496524163;
-    one.balance=50000000;
-    one.showDetails();
+    BankAccount objectOne;
+    objectOne.name = "Murlidhar Pathak";
+    objectOne.accountNumber= 857496524163;
+    objectOne.balance=50000000;
+    objectOne.showDetails();
     cout<<"\n";
-    BankAccount two;
-    two.name = "Gajodhar Pandey";
-    two.accountNumber= 748596415263;
-    two.balance=7556000;
-    two.showDetails();
+    BankAccount objectTwo;
+    objectTwo.name = "Gajodhar Pandey";
+    objectTwo.accountNumber= 748596415263;
+    objectTwo.balance=7556000;
+    objectTwo.showDetails();
     return 0;
 }
